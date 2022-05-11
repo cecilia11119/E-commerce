@@ -1,0 +1,268 @@
+@media (min-width:320px) and (max-width:768px){
+
+  .title-text-left {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    }
+  .text-center {
+    text-align: center;
+  }
+
+   .contact-form {
+    width: 100%;
+    height: 240px;
+    /* border: steelblue solid 1px; */
+    justify-items: center;
+  }
+    /* todos los objetos del contact-form tienen este estilo */
+    .contact-form > * {
+      /* padding: 0.5rem;
+      margin: 1rem auto 0.5rem auto; */
+      /* display: flex;
+      flex-direction: column; */
+      display: inline-block;
+      width: 100%;
+    }
+    
+    .contact-form input,
+    .contact-form textareaContacto {
+      font-size: 0.85rem;
+      font-family: var(--font);
+      
+    }
+    
+    .contact-form input {
+      border: 0;
+      /* padding-left: 0; */
+      border-bottom: thin solid var(--gray-dark-color);
+    }
+    
+    .contact-form textareaContacto {
+      border: thin solid var(--gray-dark-color);
+      resize: none;
+    }
+    
+    .contact-form input[type="submit"] {
+      /* margin-top: 0; */
+      cursor: pointer;
+      transition: all 0.5s ease-out;
+    }
+    
+    .contact-form input[type="submit"]:hover {
+      opacity: 0.75;
+    }
+    
+    .contact-form *::placeholder {
+      color: var(--gray-dark-color);
+    }
+    
+    .contact-form-response {
+      padding: 1rem;
+      /* width: 400px; */
+      width: 100%;
+      text-align: center;
+      background-color: var(--white-color);
+    }
+    .contact-form-response svg {
+      margin-top: 2rem;
+      /* width: 4rem; */
+      width: 100%;
+      height: 4rem;
+      fill: var(--first-color);
+    }
+    
+    
+    .modal#gracias:target {
+      opacity: 1;
+      pointer-events: auto;
+    }
+  
+    .none {
+        display: none;
+      }
+       
+
+
+}
+
+
+@media (min-width:769px) and (max-width:1023px){
+  .title-text-left {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+    }
+  .text-center {
+    text-align: center;
+  }
+
+   .contact-form {
+    width: 27.125rem;
+    height: 14.5rem;
+    /* border: steelblue solid 1px; */
+    justify-items: center;
+  }
+    /* todos los objetos del contact-form tienen este estilo */
+    .contact-form > * {
+      /* padding: 0.5rem;
+      margin: 1rem auto 0.5rem auto; */
+      /* display: flex;
+      flex-direction: column; */
+      display: inline-block;
+      width: 100%;
+    }
+    
+    .contact-form input,
+    .contact-form textareaContacto {
+      font-size: 0.85rem;
+      font-family: var(--font);
+      
+    }
+    
+    .contact-form input {
+      border: 0;
+      /* padding-left: 0; */
+      border-bottom: thin solid var(--gray-dark-color);
+    }
+    
+    .contact-form textareaContacto {
+      border: thin solid var(--gray-dark-color);
+      resize: none;
+    }
+    
+    .contact-form input[type="submit"] {
+      /* margin-top: 0; */
+      cursor: pointer;
+      transition: all 0.5s ease-out;
+    }
+    
+    .contact-form input[type="submit"]:hover {
+      opacity: 0.75;
+    }
+    
+    .contact-form *::placeholder {
+      color: var(--gray-dark-color);
+    }
+    
+    .contact-form-response {
+      padding: 1rem;
+      /* width: 400px; */
+      width: 100%;
+      text-align: center;
+      background-color: var(--white-color);
+    }
+    .contact-form-response svg {
+      margin-top: 2rem;
+      /* width: 4rem; */
+      width: 100%;
+      height: 4rem;
+      fill: var(--first-color);
+    }
+    
+    
+    .modal#gracias:target {
+      opacity: 1;
+      pointer-events: auto;
+    }
+  
+    .none {
+        display: none;
+      }
+      
+    
+    
+}
+
+
+@media screen and (min-width: 1024px){
+
+  .title-text-left {
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+    }
+  .text-center {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+   .contact-form {
+    width: 100%;
+    height: 240px;
+    /* border: steelblue solid 1px; */
+    justify-items: center;
+  }
+    /* todos los objetos del contact-form tienen este estilo */
+    .contact-form > * {
+      /* padding: 0.5rem;
+      margin: 1rem auto 0.5rem auto; */
+      /* display: flex;
+      flex-direction: column; */
+      display: inline-block;
+      width: 100%;
+    }
+    
+    .contact-form input,
+    .contact-form textareaContacto {
+      font-size: 0.85rem;
+      font-family: var(--font);
+      
+    }
+    
+    .contact-form input {
+      border: 0;
+      /* padding-left: 0; */
+      border-bottom: thin solid var(--gray-dark-color);
+    }
+    
+    .contact-form textareaContacto {
+      border: thin solid var(--gray-dark-color);
+      resize: none;
+    }
+    
+    .contact-form input[type="submit"] {
+      /* margin-top: 0; */
+      cursor: pointer;
+      transition: all 0.5s ease-out;
+    }
+    
+    .contact-form input[type="submit"]:hover {
+      opacity: 0.75;
+    }
+    
+    .contact-form *::placeholder {
+      color: var(--gray-dark-color);
+    }
+    
+    .contact-form-response {
+      padding: 1rem;
+      /* width: 400px; */
+      width: 100%;
+      text-align: center;
+      background-color: var(--white-color);
+    }
+    .contact-form-response svg {
+      margin-top: 2rem;
+      /* width: 4rem; */
+      width: 100%;
+      height: 4rem;
+      fill: var(--first-color);
+    }
+    
+    
+    .modal#gracias:target {
+      opacity: 1;
+      pointer-events: auto;
+    }
+  
+    .none {
+        display: none;
+      }
+      
+    
+  
+
+}

@@ -1,0 +1,392 @@
+:root {
+    --raleway: 'raleway';
+    --background-blanco: #F5F5F5;
+    --fuente-barra:#A2A2A2;
+    --fuente-banner:#FFFFFF;
+    --fuente-productos:#464646;
+    --fuente-productos-azul:hsl(214, 78%, 53%);
+    
+    --first-color: #2A7AE4;
+    --first-alpha-color: rgba(217, 0, 98, 0.75);
+    --second-color: #464646;
+    --second-alpha-color: rgba(26, 28, 27, 0.25);
+    --third-color: #41514d;
+    --third-alpha-color: rgba(65, 81, 77, 0.65);
+    --white-color: #fff;
+    --gray-light-color: #f3f3f3;
+    --gray-color: #ccc;
+    --gray-dark-color: #666;
+    --black-color: #000;
+    --link-color: #509ee3;
+    --title-color: #333;
+    --text-color: #222;
+    --white-alpha-color: rgba(255, 255, 255, 0.5);
+    --black-alpha-color: rgba(0, 0, 0, 0.1);
+
+    --font-weigth-input: 300px;
+    --font-size-input-label: 20px;
+
+    --font-size-logo: 28px;
+    --font-size-card-title: 28px;
+    --font-size-Grande: 16px;
+    --font-size-Chico: 14px;
+    --font-size-button: 14px;
+    --font-size-Titulo: 32px;
+    --font-size-TituloCH: 22px;
+    --font-size-modal-title: 28px;
+    --font-size-modal-button: 28px;
+  
+    --primary-color: #0071ea;
+  --secondary-color: #d6eaff;
+  --contrast-dark-color: #4d4d4d;
+
+  --contrast-light-color: #fff;
+  --warning-color: #df2525;
+  --success-color: #047900;
+  --transparency-color: #4d4d4d33;
+
+  --shadow: 0 5px 10px #55a6ff38;
+}
+
+body{
+    font-family:'raleway';
+    font-weight:700;
+    box-sizing: border-box;    
+}
+
+header{
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.cabecera_logo{
+   width: 9.3rem;   
+}
+
+img {
+    width: inherit;
+  }
+  
+
+.busqueda_campo{
+    padding: .75rem 1rem;
+    border-radius: 1.25rem;
+    width: 21.8rem;
+    border: none;
+    background-color: var(--background-blanco);
+}
+
+.busqueda_campo:focus{
+    outline: none;
+}
+
+.contenido_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+   
+}
+
+.consolas{
+    width: 6.8rem;
+    height: 3.1rem; 
+    font-size: 16px;
+    font-weight: 400;
+    background-color:var(--fuente-productos-azul);
+    color: white;
+    margin-left: 5rem;
+    margin-bottom: 1.5rem;
+    text-align:left;
+    border: none;
+}
+.button-busqueda{
+    margin-left: -50px;
+    border: none;
+    opacity: 50;
+    background-color: var(--background-blanco)
+}
+.button-busqueda-login{
+  display: none;
+}
+
+.footer {
+    max-width: var(--max-width);
+    margin-bottom: var(--header-height);
+    padding: 0.5rem;
+    text-align: center;
+    color: var(--white-color);
+    background-color: var(--third-color);
+  }
+
+@media (min-width:320px) and (max-width:768px){
+    .texto-categoria{
+        width: 100%;
+        height: 2.37rem;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 22px;
+     }
+
+    .texto-categoria h2{
+        font-size: 22px;
+    }
+
+    .cabecera_container{
+        width: 20.5rem;
+        height: 4.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: .85rem;
+        padding-bottom:.85rem;
+        /* border: red solid 1px; */
+    }
+    
+    .cabecera_logo{
+        width: 7.5rem;        
+    }
+
+    .login {
+        width: 8.313rem;
+        height: 2.5rem;
+        font-size: 16px;
+        color: var(--fuente-productos-azul);
+        background-color: white;
+        border: 1.5px solid var(--fuente-productos-azul);
+       
+    }
+
+    .busqueda_campo{
+       display:none;
+    }
+   .texto h1{
+       font-size: 1.375rem;
+       margin-left: 2.5rem;
+       width: 20.5rem;
+       height: 1.625rem;
+    }
+   .texto p{
+        font-size: 0.875rem; 
+        margin-left: 2.5rem;
+        width: 20.5rem;
+        height: 1rem; 
+    }
+   
+    .consolas{
+        margin-left: 2.5rem;
+        width:7.375rem;
+        height: 2.5rem;
+        font-size: 14px; 
+        text-align: center;
+    }
+    .button-busqueda{   
+        display: none;
+    }
+    .button-busqueda-login{
+        display: inline;
+        background-color: white;
+        border: none;
+        margin-left:0.62rem;
+        
+    }
+   
+
+
+}
+
+@media (min-width:769px) and (max-width:1023px){
+    
+    .texto-categoria{
+        width: 100%;
+        height: 2.37rem;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 22px;
+     }
+
+    .texto-categoria h2{
+        font-size: 22px;
+    }
+
+    .cabecera_container{
+        width: 44rem;
+        height: 4.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        padding-top: .85rem;
+        padding-bottom:.85rem;
+       
+    }
+    
+    .login {
+        width: 10.375rem;
+        height: 2.5rem;
+        font-size: 14px;
+        color: var(--fuente-productos-azul);
+        background-color: white;
+        border: 1.5px solid var(--fuente-productos-azul);
+       
+    }
+
+
+    .busqueda{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 5%;
+        /* margin-right: 5%;  */
+    }
+    .texto{
+        text-align:left;
+        align-items: left;
+        width: 87%;;
+    }
+
+    
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    /* max-width: var(--max-width); */
+    height: 352px;
+    background: url('assets/img/banner-image.png') center / cover no-repeat;
+    margin: 2rem 0;
+   
+}
+
+    .texto h1 {
+        font-weight: 700;
+        font-size: 60px;
+        color: var(--fuente-banner);
+        margin-top: 80px;
+        margin-left: 14%;
+        margin-bottom: 30px;
+        text-align:left;   
+    }
+    .texto p {
+        font-weight: 400;
+        font-size: 20px;
+        color: var(--fuente-banner);
+        margin-left: 14%;
+        margin-bottom: 1.25rem;
+        text-align:left;
+    }
+    
+
+     .consolas{
+        
+        width: 7.375rem;
+        height: 2.5rem;
+        font-size: 14px; 
+        margin-left: 14%;
+        text-align: center;
+    }
+}
+
+
+@media screen and (min-width: 1024px){
+        
+.texto-categoria{    
+    width: 100%;
+    height: 2.37rem;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between
+             
+}
+
+.texto-categoria h2{
+    font-size: 32px;
+}
+    
+    .cabecera_container{
+        width: 87%;
+        height: 115px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: .35rem;
+        padding-bottom:1.85rem;
+       
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .login {
+        width: 11.375rem;
+        height: 3.188rem;
+        font-size: 16px;
+        color: var(--fuente-productos-azul);
+        background-color: white;
+        border: 1.5px solid var(--fuente-productos-azul);
+    }
+
+    
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    /* max-width: var(--max-width); */
+    height: 352px;
+    background: url('assets/img/banner-image.png') center / cover no-repeat;
+    margin: 2rem 0;
+    
+}
+
+
+    .texto{
+        text-align:left;
+        align-items: left;
+        width: 87%;;
+    }
+
+.texto h1 {
+    font-weight: 700;
+    font-size: 60px;
+    color: var(--fuente-banner);
+    margin-top: 80px;
+    margin-left: 5rem;
+    margin-bottom: 30px;
+    text-align:left;   
+}
+.texto p {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--fuente-banner);
+    margin-left: 5rem;
+    margin-bottom: 1.25rem;
+    text-align:left;
+}
+
+.consolas{
+    width: 8.063rem;
+    height: 3.188rem; 
+    font-size: 16px;
+    font-weight: 400;
+    background-color:var(--fuente-productos-azul);
+    color: white;
+    margin-left: 5rem;
+    margin-bottom: 1.5rem;
+    text-align:center;
+    border: none;
+}
+
+
+}

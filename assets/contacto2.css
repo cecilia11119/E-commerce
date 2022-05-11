@@ -1,0 +1,167 @@
+
+
+
+  @media (min-width:320px) and (max-width:768px){
+
+      .contacto__container{
+  
+      display: flex;
+      flex-direction: column; 
+      justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+      /* justify-content: center; */
+      /* display: grid;
+      grid-template-columns: repeat(3, 25% 25% 50%);
+      justify-content: space-between; */
+      width: 20.5rem;
+      height: 29.25rem;
+      /* float: center; */
+    }
+
+ .busqueda{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+ }
+
+ .cajaArt{
+   width: 20.5rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+ }
+ 
+ .title-text-left{
+   width: 20.5rem;
+   height: 1.188rem;
+ }
+
+
+    #inputcontacto{
+      width: 20.5rem;
+      height: 3.5rem;
+    }
+    
+    
+    .textareaContacto {
+      border: none;
+      color: inherit;
+      font-size: inherit;
+      font-weight: inherit;
+      font-family: inherit;
+      box-sizing: border-box;
+      border: 1px solid var(--fuente-productos);
+      /* padding: 0.2rem 0.2rem; */
+      /* margin:auto 5px; */
+      /* border-radius: 7px; */
+      width: 20.5rem;
+      height: 5.125rem;
+      /* min-height: 3rem; */
+      
+    }
+
+    .boton-Contacto {
+      /* border-radius: 0.5rem; */
+      padding: 1rem;
+      display: inline-block;
+       /* display: inline; */
+      width: 8.313rem;
+      height: 2.5rem;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+      color: var(--white-color);
+      background-color: var(--first-color);
+      align-content: left;
+      /* float: left; */
+    }
+
+  }
+
+  @media (min-width:769px) and (max-width:1023px){
+
+   
+/* esqueleto formulario */
+.contacto {
+  /* padding: 3rem 0; */
+  /* justify-content: space-between; */
+  width: 100%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* max-width: var(--max-width); */
+}
+
+
+      .contacto__container{
+          width: 44rem;
+          /* width: 44rem; */
+          height: 18.75rem;
+          /* justify-content: space-between;  */
+          display: grid;
+        grid-gap: .2rem;
+        /* grid-template-columns: 15.875rem 27.125rem; */
+        grid-template-columns: 35% 65%;
+        grid-template-rows: 15% 85%;
+      }
+
+    .box {
+      align-items: flex-end;
+      display: flex;
+      justify-content: center;
+  }
+
+  .cajaArt{
+    grid-column: 2/ 2;
+    grid-row: 1 / 2;
+    width: 15.875rem;
+    height: 18.75;
+  }
+
+    .cajaArt:nth-child(1){
+      grid-column: 1 / 1;
+      grid-row: 1 / 1;
+    }
+
+    .cajaArt:nth-child(2){
+      grid-column: 1 / 1;
+      grid-row: 2 / 2;
+    }
+   
+    }
+
+  @media screen and (min-width: 1024px){
+
+    .contacto {
+      /* padding: 3rem 0; */
+      /* justify-content: space-between; */
+      width: 100%; 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     
+      /* max-width: var(--max-width); */
+    }
+
+        .cajaArt{
+        width: 95%;
+    height: 234px;
+    text-align: left;
+    }
+
+          .contacto__container{
+            width: 87%;
+            align-items: center;
+         display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(3, 19% 22% 59%);
+ 
+        }
+
+       
+
+  }

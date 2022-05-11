@@ -1,0 +1,433 @@
+:root {
+    --cardWidth: 11rem;
+    --cardHeight:15.1rem;
+    /* --cardMargin: 0.60rem;         */
+    --cardMarginRight: 0.75rem;  
+    --cardMarginBottom: 0.80rem;
+}
+
+.categoria {
+    /* width: 71rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    margin-top: 1.25rem;
+    
+}
+
+.texto{
+    width: 20.5;
+    height: 6.125;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.texto-categoria img{
+    width: 16px;
+    height: 16px;
+    padding-right: 3.75rem;
+}
+
+.texto-categoria a{
+    margin-top:10px;
+    font-size: 16px;
+    color: var(--fuente-productos-azul)
+}
+.productos {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+       
+}
+
+.card {
+    width: var(--cardWidth);
+    height: var(--cardHeight);
+    /* margin: var(--cardMargin); */
+    margin-right: var(--cardMarginRight);
+    margin-bottom: var(--cardMarginBottom);
+    box-sizing: border-box;
+}
+
+.card img{
+    width: 11rem;
+    height: 10.8rem;
+    display: flex; 
+    
+}
+
+.card h3 {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--fuente-productos);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--fuente-productos);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card a {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--fuente-productos-azul);
+    margin-top: 10px;
+
+}
+
+
+@media (min-width:320px) and (max-width:768px){
+
+    
+    .banner{
+        display: flex;
+        flex-direction: column;  
+        background: url('assets/img/banner-image.png') center / cover no-repeat;
+        /* background-image: url('../img/banner-image.png'); */
+        background-size: cover;
+        background-position: center center; 
+        position: static;
+        justify-content:center;  
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        width: 22.5rem;
+        height: 12rem;
+       
+    }
+
+    .texto h1 {
+        font-weight: 700;
+        font-size: 22px;
+        color: var(--fuente-banner);
+        margin-top: 80px;
+        margin-left: 2rem;
+        margin-bottom: 30px;
+        text-align:left; 
+        width: 20.5;
+        height: 1.625rem;
+        font-weight: bold;  
+    }
+    .texto p {
+        font-weight: 400;
+        font-size: 14px;
+        color: var(--fuente-banner);
+        margin-left: 2rem;
+        /* margin-bottom: 0.50rem; */
+        text-align:left;
+    }
+
+    .consolas{
+        width: 7.375rem;
+        height: 2.5rem; 
+        font-size: 14px;
+        font-weight: 400;
+        background-color:var(--fuente-productos-azul);
+        color: white;
+        margin-left: 2rem;
+        margin-bottom: 1.5rem;
+        text-align:center;
+        border: none;
+    }
+
+    
+
+    .card{
+        width: 9.75rem;
+        height: 15.75rem;
+        margin-right:0.5rem;
+        margin-bottom: 1rem;
+        box-sizing: border-box;
+        /* margin: 0.25rem */
+    }
+    /* .card{
+        width: 8.2rem;
+        height: 14.8rem;
+        margin: 0.25rem;
+    }  */
+
+    .card img{
+        width: 9.75rem;
+        height: 10.875rem;
+    }
+
+    /* .card img{   
+        width: 8.75rem;
+        height: 9.62rem;
+    } */
+
+    .card a {
+        font-size: 14px;
+        margin-top: 0.31rem;
+        margin-bottom: 0.31rem; 
+    }
+
+    .texto{
+        width: 20.5;
+        height: 6.125;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .texto-categoria{    
+        width: 20.5rem;
+        height: 1.625rem;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between
+                 
+    }
+    .texto-categoria h2{
+        padding-left: 0.25rem;
+    }
+
+    .texto-categoria img{
+        width: 16px;
+        height: 16px;
+        padding-right: 0px;
+    }
+    .productos{
+        width: 20.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        /* justify-content: space-between;  */
+    }
+
+    .card h3 {
+        font-weight: 500;
+        font-size: 14px;
+        color: var(--fuente-productos);
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .card p {
+        font-weight: 700;
+        font-size: 16px;
+        color: var(--fuente-productos);
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .card a {
+        font-size: 14px;
+        margin-top: 0.31rem;
+        margin-bottom: 0.31rem; 
+    }
+
+    .login{
+        margin-right: 7px;
+    }
+
+    .none {
+        display: none;
+      }
+
+}
+
+    
+
+@media (min-width:769px) and (max-width:1023px){
+
+    .productos{
+        width: 44rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        /* justify-content: space-between;  */
+    }
+  
+    .card{
+        width: 10.25rem;
+        height: 15.75rem;
+        /* margin: 0.25rem */
+    }
+   
+    .card img{
+        width: 10.25rem;
+        height: 10.875rem;
+    }
+
+    
+    .card a {
+        font-size: 14px;
+        margin-top: 0.31rem;
+        margin-bottom: 0.31rem; 
+    }
+
+    .texto{
+        width: 20.5;
+        height: 6.125;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .texto-categoria{    
+        width: 44rem;
+        height: 1.625rem;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between
+                 
+    }
+    .texto-categoria h2{
+        font-size: 22px;
+    }
+
+    .texto-categoria img{
+        width: 16px;
+        height: 16px;
+        padding-right: 0px;
+    }
+    
+    .none {
+        display: none;
+      }
+   
+}
+
+
+
+@media screen and (min-width: 1024px){
+   
+    .categoria {
+        /* width: 71rem; */
+        width: 87%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center; 
+        margin-top: 1.25rem;
+        
+    }
+
+    .consolas{
+        width: 8.063rem;
+        height: 3.188rem; 
+        font-size: 16px;
+        font-weight: 400;
+        background-color:var(--fuente-productos-azul);
+        color: white;
+        margin-left: 5rem;
+        margin-bottom: 1.5rem;
+        text-align:center;
+        border: none;
+    }
+    
+
+    
+    .categoria1 {
+        /* width: 100%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* justify-content: space-between; */
+        align-items: center; 
+        text-align: center;
+      align-content: center;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        
+    }
+        
+    .texto-categoria{    
+        width: 100%;
+        height: 2.075rem;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between
+                
+    }
+    
+    .texto-categoria h2{
+        font-size: 32px;
+    }
+    
+    .texto-categoria img{
+        width: 16px;
+        height: 16px;
+        padding-right: 3.75rem;
+    }
+    
+    .texto-categoria a{
+        margin-top:10px;
+        font-size: 16px;
+        color: var(--fuente-productos-azul)
+        
+    }
+
+    .productos{
+        width: 100%;
+        display: flex;
+        /* justify-content: space-between; */
+        /* width: 1136px; */
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+       
+    }
+
+    .productos1 {
+        width: 71rem;
+        display: flex;
+        justify-content: space-between;
+        /* justify-content: flex-start; */
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        
+    }
+    
+    .card {
+        width: var(--cardWidth);
+        height: var(--cardHeight);
+        /* margin: var(--cardMargin); */
+        margin-right: var(--cardMarginRight);
+        margin-bottom: var(--cardMarginBottom);
+        box-sizing: border-box;
+    }
+    
+    .card img{
+        width: 11rem;
+        height: 10.8rem;
+        display: flex; 
+        
+    }
+    
+    .card h3 {
+        font-weight: 500;
+        font-size: 14px;
+        color: var(--fuente-productos);
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .card p {
+        font-weight: 700;
+        font-size: 16px;
+        color: var(--fuente-productos);
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .card a {
+        font-weight: 700;
+        font-size: 16px;
+        color: var(--fuente-productos-azul);
+        margin-top: 10px;
+    
+    }
+      
+    .none {
+        display: none;
+      }
+
+}
+

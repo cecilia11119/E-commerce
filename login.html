@@ -1,0 +1,114 @@
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-login.css">
+    <!-- <link rel="stylesheet" href="assets/inputs.css"> -->
+    <link rel="stylesheet" href="assets/componentes/formulario.css">
+    <link rel="stylesheet" href="assets/componentes/button.css">
+    <link rel="stylesheet" href="assets/componentes/inputs.css">
+    <link rel="stylesheet" href="assets/componentes/textArea.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&family=Rajdhani&family=Roboto&display=swap" rel="stylesheet">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600;700&display=swap" rel="stylesheet">
+<body>
+    <header>
+    <div class="cabecera_container">
+        <img class="cabecera_logo" src="./assets/logo.svg" alt="AluraGeek logo">
+        <div class="busqueda">
+            <form action=""></form>
+            <input type="search" class="busqueda_campo" placeholder="¿Qué deseas buscar?" name="search">
+            <button class="button-busqueda"><img src="./assets/lupa.png" alt="Icono Lupa"></button>
+        </div>
+        <a href="login.html"><button class="login">Login</button> </a>
+        <button class="button-busqueda-login"><img src="./assets/lupa-negro.png" alt="Icono Lupa"></button> 
+    </div>
+    </header>
+
+    <section class="section-login">
+    <div class="container-login">
+        <form class="form-control">
+            <h2>Iniciar Sesión</h2>
+            <input type="text" name="usuario" placeholder="Escriba su correo electrónico">
+            <input type="password" name="clave" placeholder="Escriba su contraseña">
+            <button type="submit" name="entrar">Entrar</button>
+        </form>
+    </div>
+  </section>
+
+    <section class="contacto">
+           
+        <div class="contacto__container">
+            
+            <article class="cajaArt">
+
+                  <div class="busqueda">
+                    <img class="cabecera_logo" src="./assets/logo.svg" alt="AluraGeek logo">
+                    <!-- <a href="#" class="menu__link">Alura</a><p>Geek </p> -->
+                  </div>
+                  
+                </article>
+    
+                <article class="cajaArt">
+                    <a class="inicio_title" href="#">
+                        Quienes somos
+                       </a>
+                       <br><br>
+                       <a class="inicio_title" href="#">
+                        Politica de privacidad
+                       </a>
+                       <br><br>
+                       <a class="inicio_title" href="#">
+                        Programa de fidelidad
+                       </a>
+                       <br><br>
+                       <a class="inicio_title" href="#">
+                        Nuestras tiendas
+                       </a>
+                       <br><br>
+                       <a class="inicio_title" href="#">
+                        Quiero ser franquiciado
+                       </a>
+                       <br><br>
+                       <a class="inicio_title" href="#">
+                        Anuncie aqui
+                       </a>
+                </article>
+
+                <article class="cajaArt">   
+                  <form class="contact-form box-shadow-1">
+                    <!-- <legend class="form__label">Información básica</legend> -->
+                
+                    <div class="input-container">
+                        <label class="title-text-left">Hable con nosotros</label>
+                   
+                      <input name="name" id="name" class="input inputs" type="text" placeholder="Ingrese su nombre *" title="Nombre sólo acepta letras y espacios en blanco" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required data-tipo="nombre">
+                      
+                      <label class="input-label" for="name">Ingrese su nombre</label>
+                      <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+
+                    <!-- <label for="asunto">Ingrese el mensaje</label> -->
+                                     
+                    <textarea  name="mensaje" id="mensaje" class="textareaContacto inputs" rows="5"  type="text" placeholder="Ingrese el mensaje" required  data-tipo="mensaje"></textarea>
+                    <label class="input-label" for="mensaje"></label>
+                    <span class="input-message-error">Este campo no es valido</span> 
+                    
+                    <div class="contact-form-loader text-center none">
+                      <img src=" assets/img/loader.svg" alt="Enviando...">
+                    </div>
+                    
+                    <input class="boton-formulario" type="submit" value="Enviar Mensaje">
+                   
+                  </form>
+                </article> 
+            
+           </div>
+         
+      </section>
+      <script src="./assets/js/app.js" type="module"></script>
+</body>

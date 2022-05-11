@@ -1,0 +1,395 @@
+
+
+.box-shadow-1 {
+  box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.25);
+}
+
+
+@media (min-width:320px) and (max-width:768px){
+
+
+  .boton-formulario {
+    /* border-radius: 0.5rem; */
+    padding: 1rem;
+    display: inline-block;
+     /* display: inline; */
+    width: 200px;
+    /* font-family: var(--font); */
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: var(--white-color);
+    background-color: var(--first-color);
+    align-content: left;
+    margin-top: 0.5rem;
+    /* float: left; */
+  }
+  
+  .boton-AgregarProd{
+    /* border-radius: 0.5rem; */
+    padding: 0.5rem;
+    display: inline-block;
+     /* display: inline; */
+    width: 150px;
+    height: 40px;
+    /* font-family: var(--font); */
+    font-size: var(--font-size-Chico);
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: var(--white-color);
+    background-color: var(--first-color);
+    align-content: left;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 0.5rem; */
+    /* float: left; */
+  }
+    
+  
+  #botonFormFormulario{
+    width: 144px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-family: var(--font);
+  }
+  
+    
+  .button {
+    /* padding: 0.5rem; */
+    width: 182px;
+    height: 51px;
+    /* padding-right: 5%; */
+    padding: 1%;
+    /* display: block; */
+    display: inline-block;
+    color: var(--second-color);
+    background-color: var(--white-color);
+    /* border-radius: 7px; */
+     /* max-width: 20rem; */
+     /* padding: 1.125rem; */
+    box-sizing: border-box;
+    border: steelblue solid 1px;
+    font-family: var(--font);
+    font-size: var(--font-size-button);
+    /* align-self: center; */
+    text-align: center;
+   
+  }
+  
+  .btn {
+    /* border-radius: 0.5rem; */
+    padding: 1rem;
+    display: inline-block;
+     /* display: inline; */
+    font-family: var(--font);
+    width: 200px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: var(--white-color);
+    background-color: var(--first-color);
+    align-content: left;
+    float: left;
+   
+  }
+    
+  #botonForm{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .boton{
+    border-radius: 0.5rem;
+    padding: 5px;
+    display: inline-block;
+    justify-content: space-between;
+    width: 110px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: var(--white-color);
+    background: var(--title-color);
+  }
+
+}
+
+@media (min-width:769px) and (max-width:1023px){
+
+  .boton-formulario {
+    /* border-radius: 0.5rem; */
+    padding: 1rem;
+    display: inline-block;
+     /* display: inline; */
+    width: 9rem;
+    height: 2.688rem;
+    /* font-family: var(--font); */
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: var(--white-color);
+    background-color: var(--first-color);
+    align-content: left;
+    float: left;
+    margin-top: 0.5rem;
+  }
+  
+  
+  .boton-AgregarProd{
+    /* border-radius: 0.5rem; */
+    padding: 0.5rem;
+    display: inline-block;
+     /* display: inline; */
+    width: 150px;
+    height: 40px;
+    /* font-family: var(--font); */
+    font-size: var(--font-size-Chico);
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: var(--white-color);
+    background-color: var(--first-color);
+    align-content: left;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 0.5rem; */
+    /* float: left; */
+  }
+    
+  .button {
+    /* padding: 0.5rem; */
+    width: 6.813rem;
+    height: 2.5rem;
+    /* padding-right: 5%; */
+    padding: 1%;
+    /* display: block; */
+    display: inline-block;
+    color: var(--second-color);
+    background-color: var(--white-color);
+    /* border-radius: 7px; */
+     /* max-width: 20rem; */
+     /* padding: 1.125rem; */
+    box-sizing: border-box;
+    border: steelblue solid 1px;
+    font-family: var(--font);
+    font-size: var(--font-size-button);
+    /* align-self: center; */
+    text-align: center;
+   
+  }
+  
+  #botonFormFormulario{
+    width: 144px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-family: var(--font);
+  }
+  
+  
+  
+  .btn {
+    /* border-radius: 0.5rem; */
+    padding: 1rem;
+    display: inline-block;
+     /* display: inline; */
+    font-family: var(--font);
+    width: 200px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: var(--white-color);
+    background-color: var(--first-color);
+    align-content: left;
+    float: left;
+   
+  }
+  
+  
+  #botonForm{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+        #botonForm{
+          width: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+  
+        #botonForm{
+          width: 45%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        
+        }
+  
+  #botonForm{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .boton{
+    border-radius: 0.5rem;
+    padding: 5px;
+    display: inline-block;
+    justify-content: space-between;
+    width: 110px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: var(--white-color);
+    background: var(--title-color);
+  }
+
+}
+
+@media screen and (min-width: 1024px){
+  .boton-formulario {
+    /* border-radius: 0.5rem; */
+    padding: 1rem;
+    display: inline-block;
+     /* display: inline; */
+    width: 200px;
+    /* font-family: var(--font); */
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: var(--white-color);
+    background-color: var(--first-color);
+    align-content: left;
+    float: left;
+  }
+  
+  
+  .boton-AgregarProd{
+    /* border-radius: 0.5rem; */
+    padding: 0.5rem;
+    display: inline-block;
+     /* display: inline; */
+    width: 163px;
+    height: 51px;
+    /* font-family: var(--font); */
+    font-size: var(--font-size-Grande);
+    font-weight: bold;
+    text-align: center;
+    /* text-decoration: none; */
+    color: var(--white-color);
+    background-color: var(--first-color);
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    /* align-content: left; */
+    /* margin-top: 0.5rem; */
+    /* float: left; */
+  }
+  
+  #botonFormFormulario{
+    width: 144px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-family: var(--font);
+  }
+  
+    
+  .button {
+    /* padding: 0.5rem; */
+    width: 182px;
+    height: 51px;
+    /* padding-right: 5%; */
+    padding: 1%;
+    /* display: block; */
+    display: inline-block;
+    color: var(--second-color);
+    background-color: var(--white-color);
+    /* border-radius: 7px; */
+     /* max-width: 20rem; */
+     /* padding: 1.125rem; */
+    box-sizing: border-box;
+    border: steelblue solid 1px;
+    font-family: var(--font);
+    font-size: var(--font-size-button);
+    /* align-self: center; */
+    text-align: center;
+   
+  }
+  
+  .btn {
+    /* border-radius: 0.5rem; */
+    padding: 1rem;
+    display: inline-block;
+     /* display: inline; */
+    font-family: var(--font);
+    width: 200px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: var(--white-color);
+    background-color: var(--first-color);
+    align-content: left;
+    float: left;
+   
+  }
+  
+  
+  #botonForm{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+        #botonForm{
+          width: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+  
+        #botonForm{
+          width: 45%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        
+        }
+  
+  #botonForm{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .boton{
+    border-radius: 0.5rem;
+    padding: 5px;
+    display: inline-block;
+    justify-content: space-between;
+    width: 110px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: var(--white-color);
+    background: var(--title-color);
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "perfil": [
+    {
+      "nombre": "Christian",
+      "email": "Christian@alura.com",
+      "id": 1
+    },
+    {
+      "nombre": "Pedro",
+      "email": "pedro@alura.com",
+      "id": "b007442c-8aad-456b-b6a1-4fee1562eb84"
+    },
+    {
+      "nombre": "ceci",
+      "email": "entiendase@gmail.com",
+      "id": "bc537b5a-8379-42b2-81f8-8bc414b2b563"
+    },
+    {
+      "nombre": "producto de prueba",
+      "precio": "35",
+      "id": "e218b78d-9131-40ff-ba8b-824509a0b2cc"
+    },
+    {
+      "nombre": "producto de prueba 2",
+      "precio": "80",
+      "descripcion": "descripcion del producto prueba",
+      "id": "f5f362d2-a684-41a9-bf41-eb68daa956a3"
+    },
+    {
+      "nombre": "producto de prueba 1",
+      "precio": "50",
+      "descripcion": "descripción del producto",
+      "id": "5a4d19eb-4e4c-4f87-a13c-eae3674a742c"
+    },
+    {
+      "nombre": "producto de prueba 4",
+      "precio": "75",
+      "descripcion": "descripción de prueba",
+      "id": "d81325ee-388e-4182-b8d5-32e63a597436"
+    },
+    {
+      "nombre": "producto de prueba",
+      "precio": "80",
+      "descripcion": "descripcion del prod",
+      "id": "b5150ca4-da5b-4b06-8a34-06921132be92"
+    },
+    {
+      "nombre": "producto de prueba 5",
+      "precio": "20",
+      "descripcion": "descripcion del producto",
+      "id": "b0e28d44-d8a4-4cf7-aece-1673b41a33db"
+    },
+    {
+      "nombre": "producto prueba",
+      "precio": "45",
+      "descripcion": "descripcion del producto",
+      "id": "7f8bbeb1-ac61-4afd-907a-07c00905deae"
+    },
+    {
+      "nombre": "producto de prueba",
+      "precio": "55",
+      "descripcion": "descripcion del producto",
+      "id": "39e8922c-430c-4a95-9b08-93eb6d11f5e7"
+    },
+    {
+      "nombre": "producto de prueba",
+      "precio": "80",
+      "descripcion": "otra descripcion",
+      "id": "6e81f9e4-3894-487f-a6ac-e1dfd373f636"
+    },
+    {
+      "nombre": "producto prueba",
+      "precio": "10",
+      "descripcion": "descripcion",
+      "id": "fa616387-1b88-4c45-a15a-0ed3871642a2"
+    },
+    {
+      "nombre": "producto prueba",
+      "precio": "25",
+      "descripcion": "descripcion",
+      "id": "3c48ae11-fe42-4ee0-8490-de60a4018f8b"
+    },
+    {
+      "nombre": "producto prueba",
+      "precio": "15",
+      "descripcion": "descripcion",
+      "id": "b32ffc79-4234-4341-91c4-bb21c1299229"
+    },
+    {
+      "nombre": "producto prueba",
+      "precio": "35",
+      "descripcion": "descripcion",
+      "categoria": "",
+      "id": "4bbb6b3a-efda-44d5-a0da-5ace7ca61bc3"
+    },
+    {
+      "nombre": "producto prueba 2",
+      "precio": "15",
+      "descripcion": "descripcion",
+      "categoria": "Diversos",
+      "id": "3d6263db-b9cf-44cf-8e6a-a13b3c716e67"
+    },
+    {
+      "nombre": "producto de prueba",
+      "precio": "95",
+      "descripcion": "Descripción del producto",
+      "categoria": "Star Wars",
+      "id": "5b7c7ee0-b467-4ea8-b184-d384fe4e21fa"
+    }
+  ]
+}
